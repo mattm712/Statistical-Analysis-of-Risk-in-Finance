@@ -108,4 +108,4 @@ Where:
 * 𝜋𝑖 𝑖𝑠 𝑡h𝑒 𝑝𝑟𝑜𝑏𝑎𝑏𝑖𝑙𝑖𝑡𝑦 𝑜𝑓 𝑎𝑛 𝑒𝑥𝑐𝑒𝑝𝑡𝑖𝑜𝑛 𝑜𝑐𝑐𝑢𝑟𝑖𝑛𝑔
 * 𝑛𝑖𝑗𝑖𝑠 𝑡h𝑒 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑑𝑎𝑦𝑠 𝑤h𝑒𝑛 𝑗 𝑜𝑐𝑐𝑢𝑟𝑠 𝑐𝑜𝑛𝑑𝑖𝑡𝑖𝑜𝑛𝑎𝑙 𝑜𝑛 𝑖 𝑜𝑐𝑐𝑢𝑟𝑖𝑛𝑔  𝑡h𝑒 𝑝𝑟𝑒𝑣𝑖𝑜𝑢𝑠 𝑑𝑎𝑦  
 
-Finally, we combine the two test statistics and compare against the chi-squared distribution with two degrees of freedom. If the test statistic is less then the chi-squared value, then we accept the backtest as appropriate.
+Finally, we add the two test statistics and compare against the chi-squared distribution with two degrees of freedom. If the test statistic is less then the chi-squared value, then we accept the backtest as appropriate.
