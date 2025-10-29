@@ -109,3 +109,6 @@ Where:
 * 𝑛𝑖𝑗𝑖𝑠 𝑡h𝑒 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑑𝑎𝑦𝑠 𝑤h𝑒𝑛 𝑗 𝑜𝑐𝑐𝑢𝑟𝑠 𝑐𝑜𝑛𝑑𝑖𝑡𝑖𝑜𝑛𝑎𝑙 𝑜𝑛 𝑖 𝑜𝑐𝑐𝑢𝑟𝑖𝑛𝑔  𝑡h𝑒 𝑝𝑟𝑒𝑣𝑖𝑜𝑢𝑠 𝑑𝑎𝑦  
 
 Finally, we add the two test statistics and compare against the chi-squared distribution with two degrees of freedom. If the test statistic is less then the chi-squared value, then we accept the backtest as appropriate.
+
+# Results and conclusions
+Overall, Tesla produced the highest VaR and ES values proving to be the more volatile and risky investment. Amazon had the lowest VaR and ES values proving to be more stable over time. That said, with more risk comes more return and an investor should assess their risk appetite alongside how long they can afford to be in the market for before making any investment decisions. The methods for computation of VaR and ES varied in complexity, with EVT proving to be the most complex and the historical method proving to be the least. If an investor is looking at quantifying risk using said methods, time and proportionality should be considered. The back testing results produced passes in 87.5% of cases, with EVT having the most fails. These fails could have perhaps stemmed from the subjectivity of picking a threshold from the Mean Residual Life plot or from too small a data set.
